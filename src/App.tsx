@@ -12,6 +12,7 @@ import AttendanceMarking from "@/pages/AttendanceMarking";
 import AttendanceReports from "@/pages/AttendanceReports";
 import NcDcList from "@/pages/NcDcList";
 import PreviousSemesterReports from "@/pages/PreviousSemesterReports";
+import ExamSeatRandomization from "@/pages/ExamSeatRandomization";
 import NotFound from "@/pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -32,6 +33,7 @@ const App = () => (
               <Route path="/attendance-reports" element={<AttendanceReports />} />
               <Route path="/nc-dc-list" element={<NcDcList />} />
               <Route path="/previous-reports" element={<PreviousSemesterReports />} />
+              <Route path="/exam-seating" element={<ExamSeatRandomization />} />
             </Route>
             
             <Route path="/" element={<Navigate to="/login" replace />} />

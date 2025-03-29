@@ -19,6 +19,7 @@ import {
   AlertTriangle,
   BookOpen,
   LogOut,
+  LayoutGrid,
 } from 'lucide-react';
 
 const MainLayout = () => {
@@ -44,6 +45,7 @@ const MainLayout = () => {
     { title: 'Attendance Reports', icon: ClipboardList, path: '/attendance-reports' },
     { title: 'NC-DC List', icon: AlertTriangle, path: '/nc-dc-list' },
     { title: 'Previous Reports', icon: BookOpen, path: '/previous-reports' },
+    { title: 'Exam Seat Plan', icon: LayoutGrid, path: '/exam-seating' },
   ];
 
   return (
